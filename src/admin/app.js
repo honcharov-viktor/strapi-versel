@@ -22,7 +22,7 @@ const config = {
     // 'sv',
     // 'th',
     // 'tr',
-    // 'uk',
+    'uk',
     // 'vi',
     // 'zh-Hans',
     // 'zh',

@@ -6,16 +6,18 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
+    "concurrently": "concurrently \"node index.js\" \"strapi start\"",
     "build": "strapi build",
     "strapi": "strapi",
     "api": "node index.js"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.13.6",
-    "@strapi/plugin-users-permissions": "4.13.6",
     "@strapi/plugin-i18n": "4.13.6",
-    "better-sqlite3": "8.6.0"
+    "@strapi/plugin-users-permissions": "4.13.6",
+    "@strapi/strapi": "4.13.6",
+    "better-sqlite3": "8.6.0",
+    "concurrently": "^8.2.2",
+    "http-proxy-middleware": "^2.0.6"
   },
   "author": {
     "name": "A Strapi developer"
