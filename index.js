@@ -4,7 +4,7 @@ const strapi = require("@strapi/strapi");
 
 const appDir = process.cwd();
 
-const strapiInstance = strapi.Strapi({ appDir, distDir: appDir });
+const strapiInstance = strapi({ appDir, distDir: appDir });
 strapiInstance.start();
 
 module.exports = strapiInstance.server;
