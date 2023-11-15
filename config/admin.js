@@ -11,5 +11,5 @@ module.exports = ({ env }) => ({
     },
   },
   // url: "/wp-admin",
-  serveAdminPanel: false,
+  // serveAdminPanel: false,
 });
