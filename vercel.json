@@ -1,7 +1,7 @@
 {
   "functions": {
     "index.js": {
-      "runtime": "nodejs",
+      "runtime": "@vercel/node",
       "includeFiles": "node_modules/@strapi/**/*"
     }
   }
